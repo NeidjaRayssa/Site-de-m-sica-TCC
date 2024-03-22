@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,400;0,700;0,900;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;0,800;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="caixa_logo">
+          <a href="Home.html"> <img src="img/logo mpe2.png"  class="logo" alt="logo"></a> 
+        </div>
+
+        <div class="pesquisa">
+            <input type="text"  id="txtBusca" placeholder="  Qual música hoje?"/>
+        </div>
+
+     
+        <div id="Btns">
+        <div class="btn">
+            <input type="button" value="Cadastre-se" class="singIn">            
+        </div>
+
+        <div class="btn">
+            <input type="button" value="Entrar" class="login">
+        </div>
+    </div>
+    </header>
+    <main id="bg">
+      <div class="genero">
+        <a href="#" id="frevo" class="um"><li>FREVO</li></a>
+        <a href="#" class="um"><li>FUNK</li></a>
+        <a href="#" class="um"><li>MARACATU</li></a>
+        <a href="#" class="um"><li>AFOXÉ</li></a>
+        <a href="#" class="um"><li>MPB</li></a>
+        <a href="#" class="um"><li>CABOCLINHOS</li></a>
+        <a href="#" class="um"><li>CIRANDAS</li></a>
+        <a href="#" class="um"><li>ROCK</li></a>
+        <a href="#" class="um"><li>...</li></a>
+    </div>
+    <h4 id=h4 class="h1">Principais cantores </h4>
+        <div class="navegacao">
+   <iframe src="Carousel/index.html" frameborder="0" height="100%" width="100%"></iframe>
+        </div>
+
+        <h1 id="h1" class="h1">As mais ouvidas 🎶 </h1>
+        <div id="container">
+            <ul class="js">
+            <ul class="lista1">
+                <a href="#" class="uns"><li><i class="fa-solid fa-1" style="color: #7a7c7f;"></i> &nbsp; Mexe Com Tudo -<span>SpokFrevo Orquestra</span></li></a>
+                <a href="#" class="uns"><li><i class="fa-solid fa-2" style="color: #7a7c7f;"></i> &nbsp; Voltei, Recife - <span>Alceu Valença</span> </li></a>
+                <a href="#" class="uns"><li><i class="fa-solid fa-3" style="color: #7a7c7f;"></i> &nbsp; Nossos Tambores <span>Maracatu Estrela Brilhante</span></li></a>
+                <a href="#" class="uns"><li><i class="fa-solid fa-4" style="color: #7a7c7f;"></i> &nbsp; Anunciação - <span>Alceu Valença</span></li></a>
+                <a href="#" class="uns"><li><i class="fa-solid fa-5" style="color: #7a7c7f;"></i> &nbsp; Bixinho - <span>Duda Beat</span></li></a>
+            </ul>
+            <ul class="lista2"> 
+                <a href="#" class="uns"><li><i class="fa-solid fa-6" style="color: #7a7c7f;"></i> &nbsp; Elas Vêm - <span>Noé da Ciranda</span></li></a>
+                <a href="#" class="uns"><li><i class="fa-solid fa-7" style="color: #7a7c7f;"></i> &nbsp; Dança Rainha - <span>Maracatu Estrela Brilhante</span></li></a>
+                <a href="#" class="uns"><li><i class="fa-solid fa-8" style="color: #7a7c7f;"></i> &nbsp; Crianças - <span>Hamilton Filho</span></li></a>
+                <a href="#" class="uns"><li><i class="fa-solid fa-9" style="color: #7a7c7f;"></i> &nbsp; Meu Pisêro - <span>Duda Beat</span></li></a>
+                <a href="#" class="uns"><li><i class="fa-solid fa-1" style="color: #7a7c7f;"></i><i class="fa-solid fa-0" style="color: #7a7c7f;"></i> &nbsp; Pagode Russo - <span>Luiz Gonzaga</span></li></a>
+            </ul>
+        </ul>
+        </div>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <!--   <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="texto1.png" class="d-block w-100" alt="frase 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="texto2.png" class="d-block w-100" alt="frase 2">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="texto3.png" class="d-block w-100" alt="frase 3">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="texto4.png" class="d-block w-100" alt="frase 4">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="texto5.png" class="d-block w-100" alt="frase 5">
+            </div>-->
+          </div> 
+        <div id="musica">
+            <iframe id="player" src="player ofc/Player_principal.html" frameborder="0"  height="100%" width="100%" scrolling="no"></iframe>
+        </div>
+
+    </main>
+<script src="Troca.js"></script><
+
+</body>
+</html>
